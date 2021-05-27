@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400&subset=vietnamese');
+img {
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  color: rgba(0, 0, 0, 0.653);
+  text-shadow: 0 .2px .3px rgba(0, 0, 0, 0.353);
+  background-size: cover;
+  background: url(https://images5.alphacoders.com/916/thumbbig-916777.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.chu {
+    text-align:center;
+    color: rgb(255, 0, 157);
+    position: absolute;
+    top: 25%;
+    
+    }
+
+.kt {
+    text-align:center;
+    color: rgb(255, 0, 157);
+    position: absolute;
+    top: 35%;
+}
+.lh {
+    text-align:center;
+    color: rgb(255, 0, 157);
+    position: absolute;
+    top: 70%;
+}
+.time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 0, 157);
+}
+
+.time h2, .time p {
+  margin: 0;
+  margin-bottom: 4px;
+}
+
+.time h2 {
+  font-size: 1.5rem;
+}
+
+.time p {
+  font-size: 1.5rem;
+}
+
+.sup-time {
+  font-weight: 300;
+}
+
+
+      
